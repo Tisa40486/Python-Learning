@@ -26,7 +26,7 @@ while guess != number:
     if guess > number:
         Nbguess += 1
         print(bcolors.FAIL, "too high... \n",end=" ")
-        print(bcolors.ENDC,"Number of try : ",Nbguess)
+        print(bcolors.ENDC,"Number of try : ", Nbguess)
         
     else:
         Nbguess += 1
@@ -34,4 +34,4 @@ while guess != number:
         print(bcolors.ENDC,"Number of try : ", Nbguess)
         
         
-print("WELL DONE !! The number was", number)
+print(bcolors.OKGREEN,"WELL DONE !! The number was", number)
