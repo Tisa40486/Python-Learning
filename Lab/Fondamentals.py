@@ -15,3 +15,6 @@ print("Hello " + x + "!")
 y = input("What is your name? ")
 
 print("Hello " + y + "!")
+
+if age == "35":
+    print("Miaou")
