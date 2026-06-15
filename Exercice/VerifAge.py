@@ -22,5 +22,4 @@ age = int(age)
 if  age >= majority :
     print("Adult")
 else : 
-    
     print("minor")
