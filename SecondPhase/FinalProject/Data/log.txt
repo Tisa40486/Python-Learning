@@ -1,0 +1,26 @@
+New log entry : 2026-06-25 15:51:43.830009 
+ --The list was printed 
+New log entry : 2026-06-25 15:51:50.801622 
+ -- "ToRemove" added Successfully 
+New log entry : 2026-06-25 15:52:13.667136 
+ -- "ToRemove" was removed. 
+New log entry : 2026-06-25 15:52:39.490772 
+ --The list was printed 
+New log entry : 2026-06-25 15:52:48.439727 
+ -- "Test" was removed. 
+New log entry : 2026-06-25 15:55:50.758530 
+ --The list was printed 
+New log entry : 2026-06-25 15:55:56.768857 
+ -- "list.remove(x): x not in list" run into a problem 
+New log entry : 2026-06-25 15:56:43.402696 
+ -- "list.remove(x): x not in list" run into a problem 
+New log entry : 2026-06-25 15:56:46.500420 
+ --The list was printed 
+New log entry : 2026-06-25 15:56:50.990249 
+ -- "Test" was removed. 
+New log entry : 2026-06-25 15:56:59.534283 
+ --The list was printed 
+New log entry : 2026-06-25 15:57:02.863574 
+ -- "Test" added Successfully 
+New log entry : 2026-06-25 15:57:04.169295 
+ --The list was printed 
