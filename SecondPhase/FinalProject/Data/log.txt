@@ -24,3 +24,5 @@ New log entry : 2026-06-25 15:57:02.863574
  -- "Test" added Successfully 
 New log entry : 2026-06-25 15:57:04.169295 
  --The list was printed 
+New log entry : 2026-06-26 09:48:19.244814 
+ -- "hello" added Successfully 

@@ -1,0 +1,6 @@
+New log entry : 2026-06-26 11:12:42.902065 
+ --Account Create with the name of "Test" 
+New log entry : 2026-06-26 11:12:47.764976 
+ --Exe quit, infos saved. 
+New log entry : 2026-06-26 11:13:47.475355 
+ --Amount of 5000 deposed on Test's account. 

@@ -13,7 +13,7 @@ Choice = {
     "Quit" : 4
 }
 
-def writeLog(message : str) :
+def writeLog(message : str, ) :
     dt = datetime.now()
     
     with open(f"{folderName}/log.txt", "a") as file:
