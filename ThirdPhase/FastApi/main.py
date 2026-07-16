@@ -6,7 +6,6 @@ app = FastAPI()
 def read_root():
     return{"message":"Hello World"}
 
-
 @app.get("/users/{user_id}")
 def read_user(user_id: int):
     return{"user_id": user_id, "name": "Username"}
@@ -27,3 +26,11 @@ def search(q:str, skip: int=0, limit: int = 100):
 @app.post("/items")
 def create_item(item:Item):
     return {"created": True, "item": item}
+
+@app.put("/items/item_id")
+def update_item(item_id : int, item: Item):
+    return {"item_id":item_id, "updated" : True, "item": item}
+
+@app.delete("/items/item_id")
+def delete_item(item_id:int):
+    return {"deleted": True, "item_id": item_id}
