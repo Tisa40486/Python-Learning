@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from model import Item
 app = FastAPI()
 
 @app.get("/")
@@ -24,3 +24,6 @@ def search(q:str, skip: int=0, limit: int = 100):
     return {"query": q, "skip": skip, "limit": limit}
 
 
+@app.post("/items")
+def create_item(item:Item):
+    return {"created": True, "item": item}
