@@ -10,3 +10,8 @@ def read_root():
 @app.get("/users/{user_id}")
 def read_user(user_id: int):
     return{"user_id": user_id, "name": "Username"}
+
+@app.get("/items")
+def get_items():
+    return[{"id":1, "name": "Item 1"} , {"id": 2, "name": "item 2"}]
+
